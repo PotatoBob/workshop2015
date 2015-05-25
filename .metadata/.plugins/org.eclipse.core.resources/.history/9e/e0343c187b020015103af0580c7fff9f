@@ -1,0 +1,9 @@
+
+public class HiLowGame
+{
+public static void main(String[] args)
+{
+	int var = new Random().nextint(101);
+	for
+}
+}

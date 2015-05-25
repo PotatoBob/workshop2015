@@ -1,0 +1,27 @@
+import javax.swing.JOptionPane;
+
+
+public class HiLowGame
+{
+public static void main(String[] args)
+{
+	int var = new Random().nextint(101);
+	String input = JOptionPane.showInputDialog("Guess a number between 0 and 100");
+	for (int i = 0; i < 10; i++)
+	{
+		if (input = var)
+		{
+			System.out.println("Congratulations, you guesssed it");
+		} else
+		{
+			if (var >= input)
+			{
+				System.out.println("Higher");
+			} else
+			{
+				System.out.println("Lower");
+			}
+		}
+	}
+}
+}
