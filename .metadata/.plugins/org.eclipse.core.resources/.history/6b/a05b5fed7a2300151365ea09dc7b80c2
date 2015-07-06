@@ -15,13 +15,13 @@ System.out.println(userMood);
 		// 3. If they are in a stressed mood, use the playVideo method to play a calming song from YouTube.
 if (userMood == 0)
 {
-	playVideo("http://www.youtube.com/watch?v=dzwCZkORDHg");
+	playVideo(www.youtube.com/watch?v=dzwCZkORDHg);
 } else if (userMood == 1)
 {
-	playVideo("http://www.youtube.com/watch?v=Go9plLXb-mw");
+	playVideo(www.youtube.com/watch?v=Go9plLXb-mw);
 }else
 {
-	playVideo("http://www.youtube.com/watch?v=UXgqDlrqmzo");
+	playVideo(www.youtube.com/watch?v=UXgqDlrqmzo);
 }
 		// 4. Play different songs for other moods.
 
