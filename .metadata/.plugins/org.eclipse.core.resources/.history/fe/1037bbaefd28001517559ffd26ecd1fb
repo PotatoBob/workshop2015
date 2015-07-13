@@ -15,14 +15,14 @@ import org.teachingextensions.logo.TurtlePanel;
 
 public class FeedTheTortoise implements KeyEventDispatcher
 {
-	int X = new Random().nextInt(19);
-	int Y = new Random().nextInt(9);
+	int X = new Random().nextInt(63);
+	int Y = new Random().nextInt(45);
 	private void feedTheTortoise()
 	{
 		//630X450
 
 		// 1. use the addFood() method to add food for the tortoise
-		addFood(100*X, 100*Y);
+		addFood(10*X, 10*Y);
 		JOptionPane.showMessageDialog(null, X+", "+ Y);
 	}
 
@@ -32,28 +32,28 @@ private void goUp()
 	System.out.println("going up");
 		// 3. Make the tortoise move up the screen
 	Tortoise.setAngle(0);
-	Tortoise.move(100);
+	Tortoise.move(10);
 	}
 
 	private void goDown()
 	{
 		// 4. make the tortoise move down the screen
 		Tortoise.setAngle(180);
-		Tortoise.move(100);
+		Tortoise.move(10);
 	}
 	
 	private void goLeft()
 	{
 		// 5. make the tortoise move left
 		Tortoise.setAngle(270);
-		Tortoise.move(100);
+		Tortoise.move(10);
 	}
 
 	private void goRight()
 	{
 		// 6. make the tortoise move right
 		Tortoise.setAngle(90);
-		Tortoise.move(100);
+		Tortoise.move(10);
 	}
 
 	private void checkIfFoodFound() throws Exception

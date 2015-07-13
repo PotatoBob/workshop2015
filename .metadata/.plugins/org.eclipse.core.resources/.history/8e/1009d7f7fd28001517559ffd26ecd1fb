@@ -15,14 +15,14 @@ import org.teachingextensions.logo.TurtlePanel;
 
 public class FeedTheTortoise implements KeyEventDispatcher
 {
-	int X = new Random().nextInt(19);
-	int Y = new Random().nextInt(9);
+	int X = new Random().nextInt(63);
+	int Y = new Random().nextInt(45);
 	private void feedTheTortoise()
 	{
 		//630X450
 
 		// 1. use the addFood() method to add food for the tortoise
-		addFood(100*X, 100*Y);
+		addFood(10*X, 10*Y);
 		JOptionPane.showMessageDialog(null, X+", "+ Y);
 	}
 
