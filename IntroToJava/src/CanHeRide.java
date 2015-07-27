@@ -11,7 +11,7 @@ public static void main(String[] args)
 		JOptionPane.showMessageDialog(null, "You may enter the ride.");
 	}
 	else {
-		JOptionPane.showMessageDialog(null, "GTFO");
+		JOptionPane.showMessageDialog(null, "GO");
 	}
 }
 }
