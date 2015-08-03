@@ -1,0 +1,15 @@
+import javax.swing.JFrame;
+
+
+public class GUIintro {
+	//Field Variables
+	JFrame window;
+	public static void main(String[] args) {
+		GUIintro G = new GUIintro();
+	}
+	public GUIintro() {
+		System.out.println("Test");
+		window = new JFrame("Test");
+		window.setVisible(true);
+	}
+}

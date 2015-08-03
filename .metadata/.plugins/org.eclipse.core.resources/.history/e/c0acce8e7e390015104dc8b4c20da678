@@ -1,0 +1,23 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+
+public class GUIintro {
+	//Field Variables
+	JFrame window;
+	JFrame frame;
+	JPanel panel;
+	JButton button;
+	public GUIintro() {
+		panel = new JPanel();
+		button = new JButton("Kill the person to the left");
+		panel.add(button);
+		frame = new JFrame("Test");
+		window = new JFrame("Test");
+		window.setVisible(true);
+		window.setSize(500, 500);
+		window.add(panel);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}

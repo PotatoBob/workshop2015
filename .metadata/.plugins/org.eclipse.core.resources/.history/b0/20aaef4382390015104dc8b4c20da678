@@ -1,0 +1,12 @@
+import javax.swing.JFrame;
+
+
+public class CheapCalculator {
+	JFrame window;
+	public static void main(String[] args) {
+		CheapCalculator CC = new CheapCalculator();
+	}
+	public CheapCalculator() {
+		
+	}
+}

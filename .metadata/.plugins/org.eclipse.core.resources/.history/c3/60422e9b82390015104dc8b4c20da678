@@ -1,0 +1,30 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+
+public class CheapCalculator {
+	JFrame window;
+	JPanel panel;
+	JTextField num1;
+	JTextField num2;
+	JButton button;
+	public static void main(String[] args) {
+		CheapCalculator CC = new CheapCalculator();
+	}
+	public CheapCalculator() {
+		num1 = new JTextField(10);
+		num2 = new JTextField(10);
+		button = new JButton("equals");
+		panel = new JPanel();
+		panel.add(num1);
+		panel.add(num2);
+		panel.add(button);
+		window.add(panel);
+		
+		window = new JFrame("Calculator");
+		window.setVisible(true);
+		window.setSize(500, 600);
+	}
+}

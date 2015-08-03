@@ -1,0 +1,17 @@
+import javax.swing.JFrame;
+
+
+public class GUIintro {
+	//Field Variables
+	JFrame window;
+	public static void main(String[] args) {
+		GUIintro G = new GUIintro();
+		GUIintro Q = new GUIintro();
+	}
+	public GUIintro() {
+		System.out.println("Test");
+		window = new JFrame("Test");
+		window.setVisible(true);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}
