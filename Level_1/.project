@@ -14,4 +14,16 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/700cow.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/700cow.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/photo.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/photo.jpg</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
