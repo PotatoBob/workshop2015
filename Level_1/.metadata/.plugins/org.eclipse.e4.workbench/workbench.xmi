@@ -3,12 +3,13 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList/>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_GnB_oj74EeWWAuwERPdrwg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_HCQjEj74EeWWAuwERPdrwg" label="%trimmedwindow.label.eclipseSDK" x="42" y="80" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_GnB_oj74EeWWAuwERPdrwg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_HCQjEj74EeWWAuwERPdrwg" label="%trimmedwindow.label.eclipseSDK" x="42" y="80" width="1856" height="956">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1439167109835"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_HCQjEj74EeWWAuwERPdrwg" selectedElement="_HCQjEz74EeWWAuwERPdrwg" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_HCQjEz74EeWWAuwERPdrwg" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_Hhh5AD74EeWWAuwERPdrwg">
         <children xsi:type="advanced:Perspective" xmi:id="_Hhh5AD74EeWWAuwERPdrwg" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_Hhh5AT74EeWWAuwERPdrwg" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/jperspective.gif">
@@ -98,10 +99,10 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_Hhh5DD74EeWWAuwERPdrwg" elementId="org.eclipse.egit.ui.RepositoriesView" toBeRendered="false" ref="_HhgD0D74EeWWAuwERPdrwg"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_Hhh5DT74EeWWAuwERPdrwg" containerData="7500">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_Hhh5Dj74EeWWAuwERPdrwg" containerData="7500" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_Hhh5DT74EeWWAuwERPdrwg" containerData="7500" selectedElement="_Hhh5Dj74EeWWAuwERPdrwg">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_Hhh5Dj74EeWWAuwERPdrwg" containerData="7500" selectedElement="_Hhh5ED74EeWWAuwERPdrwg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_Hhh5Dz74EeWWAuwERPdrwg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_Hg61AD74EeWWAuwERPdrwg"/>
-                <children xsi:type="basic:PartSashContainer" xmi:id="_Hhh5ED74EeWWAuwERPdrwg" containerData="2500">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_Hhh5ED74EeWWAuwERPdrwg" containerData="2500" selectedElement="_Hhh5ET74EeWWAuwERPdrwg">
                   <children xsi:type="basic:PartStack" xmi:id="_Hhh5ET74EeWWAuwERPdrwg" elementId="org.eclipse.mylyn.tasks.ui.views.tasksMStack" containerData="5000" selectedElement="_Hhh5Ej74EeWWAuwERPdrwg">
                     <tags>newtablook</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_Hhh5Ej74EeWWAuwERPdrwg" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_Hhgq4D74EeWWAuwERPdrwg"/>
@@ -269,19 +270,19 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HIKWwD74EeWWAuwERPdrwg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_HIXyID74EeWWAuwERPdrwg" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_GpI4gj74EeWWAuwERPdrwg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_8Kin0ER3EeWZAI3biUv-hw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_GpI4gj74EeWWAuwERPdrwg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HIKWwT74EeWWAuwERPdrwg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_HIKWwj74EeWWAuwERPdrwg" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_HjZhQD74EeWWAuwERPdrwg" elementId="adt.actionSet.avdManager">
+      <children xsi:type="menu:ToolBar" xmi:id="_HjZhQD74EeWWAuwERPdrwg" elementId="adt.actionSet.avdManager" visible="false">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_Hj864D74EeWWAuwERPdrwg" elementId="adt.actionSet.lint">
+      <children xsi:type="menu:ToolBar" xmi:id="_Hj864D74EeWWAuwERPdrwg" elementId="adt.actionSet.lint" visible="false">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_HjwGkD74EeWWAuwERPdrwg" elementId="adt.actionSet.wizards">
+      <children xsi:type="menu:ToolBar" xmi:id="_HjwGkD74EeWWAuwERPdrwg" elementId="adt.actionSet.wizards" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HlUM0D74EeWWAuwERPdrwg" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -299,7 +300,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HIK90D74EeWWAuwERPdrwg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_HIixQD74EeWWAuwERPdrwg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_GpHqhD74EeWWAuwERPdrwg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_8KpVgUR3EeWZAI3biUv-hw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_GpHqhD74EeWWAuwERPdrwg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HIK90T74EeWWAuwERPdrwg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -594,7 +595,6 @@
     <bindings xmi:id="_Gqkb0T74EeWWAuwERPdrwg" keySequence="F2" command="_Go_HkT74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_Gqkb1D74EeWWAuwERPdrwg" keySequence="COMMAND+." command="_GpKGqz74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_Gqkb1T74EeWWAuwERPdrwg" keySequence="COMMAND+S" command="_GpDZBz74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqlC4z74EeWWAuwERPdrwg" keySequence="SHIFT+F9" command="_GpCx8z74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_GqlC5D74EeWWAuwERPdrwg" keySequence="COMMAND+F6" command="_GpAVnT74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_GqlC5T74EeWWAuwERPdrwg" keySequence="COMMAND+F12" command="_GpIRgT74EeWWAuwERPdrwg">
       <tags>platform:cocoa</tags>
@@ -697,11 +697,7 @@
     </bindings>
     <bindings xmi:id="_Gquz6T74EeWWAuwERPdrwg" keySequence="COMMAND+E" command="_GpCx0z74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_Gqva8D74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+E" command="_GpA8pj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqva8T74EeWWAuwERPdrwg" keySequence="F9" command="_GpDY8j74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_Gqva8j74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+NUMPAD_MULTIPLY" command="_GpHDRT74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqwCAj74EeWWAuwERPdrwg" keySequence="ALT+SHIFT+A S" command="_GpDY6D74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqwCAz74EeWWAuwERPdrwg" keySequence="ALT+SHIFT+A D" command="_GpHqVz74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqwCBD74EeWWAuwERPdrwg" keySequence="ALT+SHIFT+A R" command="_Go95UT74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_GqwpED74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+Q C" command="_GpHDYT74EeWWAuwERPdrwg">
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_GqwpET74EeWWAuwERPdrwg" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.console.ConsoleView"/>
@@ -778,86 +774,10 @@
     <bindings xmi:id="_GqyeRT74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+X A" command="_Go_HjT74EeWWAuwERPdrwg">
       <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_GrKRsD74EeWWAuwERPdrwg" keySequence="COMMAND+CTRL+F" command="_GrJqoz74EeWWAuwERPdrwg"/>
+    <bindings xmi:id="_7zRXUUR3EeWZAI3biUv-hw" keySequence="COMMAND+CTRL+F" command="_GrJqoz74EeWWAuwERPdrwg"/>
   </bindingTables>
-  <bindingTables xmi:id="_GqbR4z74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.ui.macroExpansionHoverScope" bindingContext="_GpgE0j74EeWWAuwERPdrwg">
-    <bindings xmi:id="_GqbR5D74EeWWAuwERPdrwg" keySequence="ALT+ARROW_RIGHT" command="_GpHqez74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqdHED74EeWWAuwERPdrwg" keySequence="ALT+ARROW_LEFT" command="_GpHqaz74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqnfIT74EeWWAuwERPdrwg" keySequence="F3" command="_GpKtvz74EeWWAuwERPdrwg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_GqbR5z74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_GpgE7j74EeWWAuwERPdrwg">
-    <bindings xmi:id="_GqbR6D74EeWWAuwERPdrwg" keySequence="CTRL+SHIFT+ARROW_LEFT" command="_GpIRfz74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_Gqb49z74EeWWAuwERPdrwg" keySequence="CTRL+SHIFT+ARROW_UP" command="_GpDY-z74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_GqcgBT74EeWWAuwERPdrwg" keySequence="ALT+C" command="_GpF1RD74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqdHFD74EeWWAuwERPdrwg" keySequence="COMMAND+=" command="_GpIRZj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqdHFj74EeWWAuwERPdrwg" keySequence="ALT+CTRL+ARROW_UP" command="_GpIRlD74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_Gqe8QD74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+\" command="_GpF1Qj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqgKYD74EeWWAuwERPdrwg" keySequence="CTRL+SHIFT+ARROW_RIGHT" command="_GpJfnT74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_GqgKaD74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+H" command="_GpGcVT74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqgxcT74EeWWAuwERPdrwg" keySequence="COMMAND+#" command="_GpIRZj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqgxcj74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+I" command="_GpGcMD74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqhYgD74EeWWAuwERPdrwg" keySequence="SHIFT+TAB" command="_GpGcVz74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqh_kz74EeWWAuwERPdrwg" keySequence="ALT+CTRL+H" command="_GpBjzT74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_GqjNsz74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+F" command="_GpKttj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqj0xD74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+G" command="_Go-gYj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqlC5j74EeWWAuwERPdrwg" keySequence="COMMAND+CTRL+S" command="_GpKGvz74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_Gqlp9D74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+T" command="_GpCK0D74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqmRAj74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+P" command="_GpDY8D74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqm4ET74EeWWAuwERPdrwg" keySequence="COMMAND+G" command="_GpKGsz74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqm4FD74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+Z" command="_GpI4fD74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_Gqm4HD74EeWWAuwERPdrwg" keySequence="F3" command="_GpKtvz74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqoGMz74EeWWAuwERPdrwg" keySequence="COMMAND+T" command="_GpHqaj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqoGOT74EeWWAuwERPdrwg" keySequence="COMMAND+TAB" command="_GpKttT74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqotQj74EeWWAuwERPdrwg" keySequence="F4" command="_GpJfwT74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqpUXj74EeWWAuwERPdrwg" keySequence="COMMAND+O" command="_GpF1KD74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqp7YT74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+T" command="_GpIRbT74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_Gqp7Zj74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+O" command="_GpCx5z74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_GqrJgj74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+R" command="_GpIRjD74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_Gqrwlz74EeWWAuwERPdrwg" keySequence="ALT+SHIFT+Z" command="_GpI4fD74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqrwnD74EeWWAuwERPdrwg" keySequence="COMMAND+I" command="_GpA8vj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqsXqj74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+N" command="_GpBjsz74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqs-tz74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+/" command="_GpKGkj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqtlwz74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+L" command="_GpEADD74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_GquM0z74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+S" command="_Go_ulz74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_GquM2z74EeWWAuwERPdrwg" keySequence="COMMAND+/" command="_Go_Hjj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gquz4z74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+O" command="_GpDY4T74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gquz5j74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+M" command="_Go_HfT74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_Gqva9D74EeWWAuwERPdrwg" keySequence="CTRL+TAB" command="_GpKttT74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_GqwCCj74EeWWAuwERPdrwg" keySequence="CTRL+SHIFT+ARROW_DOWN" command="_GpKttz74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_GqwCCz74EeWWAuwERPdrwg" keySequence="ALT+CTRL+ARROW_DOWN" command="_GpHqXT74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-  </bindingTables>
+  <bindingTables xmi:id="_GqbR4z74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.ui.macroExpansionHoverScope" bindingContext="_GpgE0j74EeWWAuwERPdrwg"/>
+  <bindingTables xmi:id="_GqbR5z74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_GpgE7j74EeWWAuwERPdrwg"/>
   <bindingTables xmi:id="_Gqb48T74EeWWAuwERPdrwg" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" bindingContext="_GpgE2z74EeWWAuwERPdrwg">
     <bindings xmi:id="_Gqb48j74EeWWAuwERPdrwg" keySequence="ALT+SHIFT+ARROW_DOWN" command="_GpD_8T74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_GqeVMz74EeWWAuwERPdrwg" keySequence="ALT+ARROW_DOWN" command="_GpCx0D74EeWWAuwERPdrwg"/>
@@ -879,14 +799,8 @@
     <bindings xmi:id="_GqwCBT74EeWWAuwERPdrwg" keySequence="ALT+SHIFT+C" command="_GpFOFj74EeWWAuwERPdrwg"/>
   </bindingTables>
   <bindingTables xmi:id="_Gqb49T74EeWWAuwERPdrwg" elementId="org.eclipse.core.runtime.xml" bindingContext="_GpgE5D74EeWWAuwERPdrwg">
-    <bindings xmi:id="_Gqb49j74EeWWAuwERPdrwg" keySequence="CTRL+SHIFT+ARROW_UP" command="_GpHqYT74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
     <bindings xmi:id="_GqimpD74EeWWAuwERPdrwg" keySequence="CTRL+SHIFT+D" command="_GpEnCz74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_GqnfIj74EeWWAuwERPdrwg" keySequence="CTRL+SHIFT+P" command="_GpIRgj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqwCCT74EeWWAuwERPdrwg" keySequence="CTRL+SHIFT+ARROW_DOWN" command="_GpHqdD74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_GqduIT74EeWWAuwERPdrwg" elementId="org.eclipse.wb.core.java.editorScope" bindingContext="_Gpfdwz74EeWWAuwERPdrwg">
     <bindings xmi:id="_GqduIj74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+A" command="_GpEAEz74EeWWAuwERPdrwg"/>
@@ -904,21 +818,7 @@
   <bindingTables xmi:id="_GqgKZD74EeWWAuwERPdrwg" elementId="org.eclipse.egit.ui.ReflogView" bindingContext="_GpgE1z74EeWWAuwERPdrwg">
     <bindings xmi:id="_GqgKZT74EeWWAuwERPdrwg" keySequence="COMMAND+C" command="_GpAVnj74EeWWAuwERPdrwg"/>
   </bindingTables>
-  <bindingTables xmi:id="_GqgKaT74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.ui.cViewScope" bindingContext="_GpgE8z74EeWWAuwERPdrwg">
-    <bindings xmi:id="_GqgxcD74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+H" command="_GpGcVT74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqgxcz74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+I" command="_GpGcMD74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqh_lD74EeWWAuwERPdrwg" keySequence="ALT+CTRL+H" command="_GpBjzT74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-    <bindings xmi:id="_Gqj0xT74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+G" command="_Go-gYj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqlp9T74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+T" command="_GpCK0D74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqm4Ej74EeWWAuwERPdrwg" keySequence="COMMAND+G" command="_GpKGsz74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqnfID74EeWWAuwERPdrwg" keySequence="F3" command="_GpKtvz74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqotQz74EeWWAuwERPdrwg" keySequence="F4" command="_GpJfwT74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqrwkD74EeWWAuwERPdrwg" keySequence="ALT+COMMAND+R" command="_GpIRjD74EeWWAuwERPdrwg">
-      <tags>platform:cocoa</tags>
-    </bindings>
-  </bindingTables>
+  <bindingTables xmi:id="_GqgKaT74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.ui.cViewScope" bindingContext="_GpgE8z74EeWWAuwERPdrwg"/>
   <bindingTables xmi:id="_Gqh_lz74EeWWAuwERPdrwg" elementId="org.eclipse.mylyn.tasks.ui.editors.task" bindingContext="_GpgE3D74EeWWAuwERPdrwg">
     <bindings xmi:id="_Gqh_mD74EeWWAuwERPdrwg" keySequence="ALT+SHIFT+I" command="_GpDZBj74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_GqoGNj74EeWWAuwERPdrwg" keySequence="ALT+SHIFT+U" command="_GpHqcT74EeWWAuwERPdrwg"/>
@@ -942,13 +842,7 @@
       <tags>platform:cocoa</tags>
     </bindings>
   </bindingTables>
-  <bindingTables xmi:id="_GqlC4T74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.debug.ui.debugging" bindingContext="_GpgE9D74EeWWAuwERPdrwg">
-    <bindings xmi:id="_GqlC4j74EeWWAuwERPdrwg" keySequence="SHIFT+F8" command="_GpIRdD74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqnfLD74EeWWAuwERPdrwg" keySequence="SHIFT+F6" command="_Go_HlD74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqoGPD74EeWWAuwERPdrwg" keySequence="SHIFT+F5" command="_GpD_-T74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqotSz74EeWWAuwERPdrwg" keySequence="COMMAND+F5" command="_GpJftT74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GquM1T74EeWWAuwERPdrwg" keySequence="SHIFT+F7" command="_GpGcXD74EeWWAuwERPdrwg"/>
-  </bindingTables>
+  <bindingTables xmi:id="_GqlC4T74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.debug.ui.debugging" bindingContext="_GpgE9D74EeWWAuwERPdrwg"/>
   <bindingTables xmi:id="_GqlC5z74EeWWAuwERPdrwg" elementId="org.eclipse.debug.ui.debugging" bindingContext="_GpgE1D74EeWWAuwERPdrwg">
     <bindings xmi:id="_Gqlp8D74EeWWAuwERPdrwg" keySequence="F7" command="_GpKGrz74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_GqoGMD74EeWWAuwERPdrwg" keySequence="F8" command="_GpGcPj74EeWWAuwERPdrwg"/>
@@ -965,15 +859,8 @@
     <bindings xmi:id="_GqoGNz74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+," command="_GpI4lT74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_Gqs-sD74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+." command="_GpIRdj74EeWWAuwERPdrwg"/>
   </bindingTables>
-  <bindingTables xmi:id="_GqmRCT74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.context" bindingContext="_GpgE1j74EeWWAuwERPdrwg">
-    <bindings xmi:id="_Gqm4ED74EeWWAuwERPdrwg" keySequence="COMMAND+G" command="_GpKGvj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_GqtlxT74EeWWAuwERPdrwg" keySequence="HOME" command="_GpBj1z74EeWWAuwERPdrwg"/>
-  </bindingTables>
-  <bindingTables xmi:id="_Gqm4Gj74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.make.ui.makefileEditorScope" bindingContext="_GpgE3z74EeWWAuwERPdrwg">
-    <bindings xmi:id="_Gqm4Gz74EeWWAuwERPdrwg" keySequence="F3" command="_GpGcXT74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqrwlj74EeWWAuwERPdrwg" keySequence="CTRL+/" command="_GpA8oj74EeWWAuwERPdrwg"/>
-    <bindings xmi:id="_Gqva9j74EeWWAuwERPdrwg" keySequence="CTRL+\" command="_GpAVoz74EeWWAuwERPdrwg"/>
-  </bindingTables>
+  <bindingTables xmi:id="_GqmRCT74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.context" bindingContext="_GpgE1j74EeWWAuwERPdrwg"/>
+  <bindingTables xmi:id="_Gqm4Gj74EeWWAuwERPdrwg" elementId="org.eclipse.cdt.make.ui.makefileEditorScope" bindingContext="_GpgE3z74EeWWAuwERPdrwg"/>
   <bindingTables xmi:id="_GqnfIz74EeWWAuwERPdrwg" elementId="org.eclipse.debug.ui.memoryview" bindingContext="_GpgE0z74EeWWAuwERPdrwg">
     <bindings xmi:id="_GqnfJD74EeWWAuwERPdrwg" keySequence="COMMAND+N" command="_GpHDUj74EeWWAuwERPdrwg"/>
     <bindings xmi:id="_GqoGMT74EeWWAuwERPdrwg" keySequence="COMMAND+T" command="_GpCKwD74EeWWAuwERPdrwg"/>
@@ -994,7 +881,7 @@
     <bindings xmi:id="_Gquz4j74EeWWAuwERPdrwg" keySequence="COMMAND+SHIFT+O" command="_Go_HhT74EeWWAuwERPdrwg"/>
   </bindingTables>
   <bindingTables xmi:id="_GrKRtT74EeWWAuwERPdrwg" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_GnCmtD74EeWWAuwERPdrwg">
-    <bindings xmi:id="_GrKRtj74EeWWAuwERPdrwg" keySequence="M1+W" command="_GrKRsz74EeWWAuwERPdrwg"/>
+    <bindings xmi:id="_7zR-YER3EeWZAI3biUv-hw" keySequence="M1+W" command="_GrKRsz74EeWWAuwERPdrwg"/>
   </bindingTables>
   <bindingTables xmi:id="_Hg_tgT74EeWWAuwERPdrwg" bindingContext="_Hg_tgD74EeWWAuwERPdrwg"/>
   <bindingTables xmi:id="_HhAUkT74EeWWAuwERPdrwg" bindingContext="_HhAUkD74EeWWAuwERPdrwg"/>
@@ -1259,7 +1146,7 @@
     <tags>View</tags>
     <tags>categoryTag:Java</tags>
   </descriptors>
-  <descriptors xmi:id="_GvbtsD74EeWWAuwERPdrwg" elementId="org.eclipse.ui.texteditor.TemplatesView" label="Templates" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/templates.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+  <descriptors xmi:id="_GvbtsD74EeWWAuwERPdrwg" elementId="org.eclipse.ui.texteditor.TemplatesView" label="Templates" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/templates.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <tags>View</tags>
     <tags>categoryTag:General</tags>
   </descriptors>

@@ -1,0 +1,24 @@
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class JLabelsandFonts
+{
+	// Field Variables
+	JFrame window;
+	JPanel panel;
+
+	public static void main(String[] args)
+	{
+		new JLabelsandFonts();
+	}
+
+	JLabelsandFonts()
+	{
+		window = new JFrame();
+		panel = new JPanel("panel");
+		window.setSize(500, 500);
+		window.setVisible(true);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+}
