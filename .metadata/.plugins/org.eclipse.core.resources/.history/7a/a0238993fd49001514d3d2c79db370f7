@@ -1,0 +1,30 @@
+import org.jointheleague.graphical.robot.Robot;
+
+public class robotMethod
+{
+	Robot Bob;
+	Robot Bobe;
+
+	public static void main(String[] args)
+	{
+		robotMethod RM = new robotMethod();
+	}
+
+	void BobSquare()
+	{
+		Robot Bob = new Robot();
+		Robot Bobe = new Robot();
+		for (int i = 0; i < 9001; i++)
+		{
+			Bob.penDown();
+			Bob.setSpeed(10);
+			Bob.move(100);
+			Bob.turn(90);
+		}
+	}
+
+	robotMethod()
+	{
+		BobSquare();
+	}
+}
