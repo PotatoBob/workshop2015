@@ -1,0 +1,45 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class GUIRobot
+{
+	JFrame window;
+	JPanel panel;
+	JButton button;
+	JTextField sides;
+	JTextField sidelength;
+	JTextField pensize;
+	JTextField pencolor;
+	JTextField speed;
+	JLabel Sides;
+	JLabel Sidelength;
+	JLabel Pensize;
+	JLabel Pencolor;
+	JLabel Speed;
+
+	public static void main(String[] args)
+	{
+		GUIRobot GR = new GUIRobot();
+	}
+
+	public GUIRobot()
+	{
+
+		sides = new JTextField();
+		sidelength = new JTextField();
+		pensize = new JTextField();
+		pencolor = new JTextField();
+		speed = new JTextField();
+		Sides = new JLabel("Number of sides");
+		Sidelength = new JLabel("Side length");
+		Pensize = new JLabel("How wide 1-10");
+		Pencolor = new JLabel("Give a simple color");
+		window = new JFrame();
+		panel = new JPanel();
+		window.add(panel);
+		window.setVisible(true);
+	}
+}

@@ -1,0 +1,68 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class GUIRobot
+{
+	JFrame window;
+	JPanel panel;
+	JButton button;
+	JTextField sides;
+	JTextField sidelength;
+	JTextField pensize;
+	JTextField pencolor;
+	JTextField speed;
+	JLabel label1;
+	JLabel label2;
+	JLabel label3;
+	JLabel label4;
+	JLabel label5;
+
+	public static void main(String[] args)
+	{
+		GUIRobot GR = new GUIRobot();
+	}
+
+	public GUIRobot()
+	{
+		window = new JFrame();
+		window.setVisible(true);
+		window.setSize(1024, 768);
+		panel = new JPanel();
+		panel.setLayout(null);
+		button = new JButton("Generate");
+		label1 = new JLabel("Nubmer of sides", 30);
+		label1.setLocation(50, 50);
+		sides = new JTextField("", 30);
+		sides.setLocation(x, y);
+		label2 = new JLabel("Length of side", 30);
+		label2.setLocation(100, 50);
+		sidelength = new JTextField("", 30);
+		sidelength.setLocation(x, y);
+		label3 = new JLabel("Width of pen", 30);
+		label3.setLocation(150, 50);
+		pensize = new JTextField("", 30);
+		pensize.setLocation(x, y);
+		label4 = new JLabel("Color of pen", 30);
+		label4.setLocation(200, 50);
+		pencolor = new JTextField("", 30);
+		pencolor.setLocation(x, y);
+		label5 = new JLabel("Speed", 30);
+		label5.setLocation(250, 50);
+		speed = new JTextField("", 30);
+		speed.setLocation(x, y);
+		panel.add(label1);
+		panel.add(sides);
+		panel.add(label2);
+		panel.add(sidelength);
+		panel.add(label3);
+		panel.add(pensize);
+		panel.add(label4);
+		panel.add(pencolor);
+		panel.add(label5);
+		panel.add(speed);
+
+	}
+}

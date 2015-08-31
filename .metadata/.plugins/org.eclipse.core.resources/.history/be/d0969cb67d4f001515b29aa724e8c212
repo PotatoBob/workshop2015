@@ -1,0 +1,34 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class GUIRobot
+{
+	JFrame window;
+	JPanel panel;
+	JButton button;
+	JTextField sides;
+	JTextField sidelength;
+	JTextField pensize;
+	JTextField pencolor;
+	JTextField speed;
+	JLabel Sides;
+	JLabel Sidelength;
+	JLabel Pensize;
+	JLabel Pencolor;
+	JLabel Speed;
+
+	public static void main(String[] args)
+	{
+		GUIRobot GR = new GUIRobot();
+	}
+
+	public GUIRobot()
+	{
+		window = new JFrame();
+		window.setVisible(true);
+		panel = new JPanel();
+	}
+}
