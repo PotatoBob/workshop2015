@@ -1,0 +1,58 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+
+public class GUIDtoB implements ActionListener
+{
+	JFrame window;
+	JPanel panel;
+	JButton button;
+	JTextField decimal;
+	JTextField binary;
+	String x;
+	int xx;
+	int y;
+	
+	public static void main(String[] args)
+	{
+		GUIDtoB DB = new GUIDtoB();
+	}
+	
+	public GUIDtoB()
+	{
+		JFrame window = new JFrame();
+		window.setVisible(true);
+		JPanel panel = new JPanel();
+		JButton button = new JButton("Convert");
+		button.addActionListener(this);
+		JTextField decimal = new JTextField();
+		x = decimal.getText();
+		xx = Integer.parseInt(x);
+		
+		JTextField binary = new JTextField();
+		
+		panel.add(decimal);
+		panel.add(button);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e)
+	{
+		if(e.getSource()==button)
+		{
+			while(xx>=1)
+			{
+				y = xx%2;
+				if(xx%2==0)
+				{
+					
+				}
+			}
+		}
+	}
+}

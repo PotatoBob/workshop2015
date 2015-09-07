@@ -1,0 +1,47 @@
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class GUIBtoD implements ActionListener
+{
+	JFrame window;
+	JPanel panel;
+	JTextField binary;
+	JTextField decimal;
+	JButton button;
+	String x;
+	int xx;
+
+	public static void main(String[] args)
+	{
+		GUIBtoD BD = new GUIBtoD();
+	}
+
+	GUIBtoD()
+	{
+		window = new JFrame();
+		window.setVisible(true);
+		panel = new JPanel();
+
+		binary = new JTextField();
+		x = binary.getText();
+		xx = Integer.parseInt(x);
+		panel.add(binary);
+
+		button = new JButton("convert");
+		button.addActionListener(this);
+		panel.add(button);
+
+		decimal = new JTextField();
+		panel.add(decimal);
+	}
+
+	// @Override
+	// public void actionPerformed(ActionEvent arg0)
+	// {
+
+	// }
+}

@@ -1,0 +1,38 @@
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class GUIDtoB
+{
+	JFrame window;
+	JPanel panel;
+	JButton button;
+	JTextField decimal;
+	JTextField binary;
+	String x;
+	int xx;
+	int y;
+
+	public static void main(String[] args)
+	{
+		GUIDtoB DB = new GUIDtoB();
+	}
+
+	public GUIDtoB()
+	{
+		JFrame window = new JFrame();
+		window.setVisible(true);
+		JPanel panel = new JPanel();
+		JButton button = new JButton("Convert");
+		JTextField decimal = new JTextField();
+		x = decimal.getText();
+		xx = Integer.parseInt(x);
+
+		JTextField binary = new JTextField();
+
+		panel.add(decimal);
+		panel.add(button);
+	}
+}
