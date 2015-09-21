@@ -1,0 +1,18 @@
+import javax.swing.JFrame;
+
+public class ChuckleClicker
+{
+	JFrame window;
+
+	public static void main(String[] args)
+	{
+
+	}
+
+	private void makeButtons()
+	{
+		JFrame window = new JFrame();
+		window.setVisible(true);
+
+	}
+}
