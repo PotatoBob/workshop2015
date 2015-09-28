@@ -1,0 +1,22 @@
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class TypeOrDie
+{
+	JFrame window;
+	JPanel panel;
+
+	public static void main(String[] args)
+	{
+		TypeOrDie TOD = new TypeOrDie();
+	}
+
+	TypeOrDie()
+	{
+		JFrame window = new JFrame("Type OR Die");
+		window.setVisible(true);
+		JPanel panel = new JPanel();
+
+		window.add(panel);
+	}
+}
