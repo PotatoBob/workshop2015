@@ -1,0 +1,58 @@
+import java.awt.Font;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class SlotMachineGUI
+{
+	int num1;
+	int num2;
+	int num3;
+	int cash = 1000;
+	String x;
+	int xx;
+	JFrame window;
+	JPanel panel;
+	JLabel money;
+	JTextField bet;
+	JTextField num;
+	JTextField real;
+	JButton button;
+	JLabel label;
+	Font font;
+
+	public static void main(String[] args)
+	{
+		SlotMachineGUI SMGUI = new SlotMachineGUI();
+	}
+
+	SlotMachineGUI()
+	{
+		// num1 = new Random().nextInt(2);
+		// num2 = new Random().nextInt(2);
+		// num3 = new Random().nextInt(2);
+
+		window = new JFrame();
+		window.pack();
+		window.setVisible(true);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		window.setLayout(null);
+		panel = new JPanel();
+		window.add(panel);
+
+		money = new JLabel("Cash=$" + cash);
+		font = new Font("Arial", Font.PLAIN, 50);
+		money.setFont(font);
+		money.setBounds(100, 50, 200, 80);
+
+		bet = new JTextField();
+		bet.setBounds(100, 130, 200, 80);
+		x = bet.getText();
+
+		panel.add(money);
+		panel.add(bet);
+	}
+}

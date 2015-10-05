@@ -1,0 +1,42 @@
+import java.util.Random;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class SlotMachineGUI
+{
+	int num1;
+	int num2;
+	int num3;
+	int cash;
+	JFrame window;
+	JPanel panel;
+	JLabel money;
+	JTextField bet;
+	JTextField num;
+	JTextField real;
+	JButton button;
+	JLabel label;
+
+	public static void main(String[] args)
+	{
+		SlotMachineGUI SMGUI = new SlotMachineGUI();
+	}
+
+	SlotMachineGUI()
+	{
+		num1 = new Random().nextInt(2);
+		num2 = new Random().nextInt(2);
+		num3 = new Random().nextInt(2);
+
+		JFrame window = new JFrame();
+		window.setVisible(true);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JPanel panel = new JPanel();
+		
+		window.add(panel);
+	}
+}

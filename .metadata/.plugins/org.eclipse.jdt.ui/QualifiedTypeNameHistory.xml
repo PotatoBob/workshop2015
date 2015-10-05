@@ -2,12 +2,13 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.teachingextensions.logo.Tortoise"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
-<fullyQualifiedTypeName name="javax.swing.JTextField"/>
-<fullyQualifiedTypeName name="javax.swing.JButton"/>
 <fullyQualifiedTypeName name="org.jointheleague.graphical.robot.Robot"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-<fullyQualifiedTypeName name="javax.swing.JFrame"/>
-<fullyQualifiedTypeName name="javax.swing.JPanel"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
 </qualifiedTypeNameHistroy>
