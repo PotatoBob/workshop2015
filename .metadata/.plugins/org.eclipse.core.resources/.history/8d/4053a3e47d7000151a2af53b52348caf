@@ -1,0 +1,23 @@
+import javax.swing.JFrame;
+
+public class PhotoBook
+{
+	JFrame window;
+	ImagePanel IP;
+
+	public static void main(String[] args)
+	{
+		PhotoBook PB = new PhotoBook();
+	}
+
+	PhotoBook()
+	{
+		window = new JFrame();
+		window.setSize(800, 500);
+		window.setVisible(true);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		IP = new ImagePanel("https://cdn.scratch.mit.edu/static/site/users/avatars/441/4570.png");
+		window.add(IP);
+	}
+}

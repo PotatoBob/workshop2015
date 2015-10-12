@@ -14,4 +14,56 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/4570.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/4570.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/91.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/91.png</locationURI>
+		</link>
+		<link>
+			<name>src/Random+button+well+that+s+cool+d_28b92a_3200114.png</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/Random+button+well+that+s+cool+d_28b92a_3200114.png</locationURI>
+		</link>
+		<link>
+			<name>src/hqdefault.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/hqdefault.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/images-1.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/images-1.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/images.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/images.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/imgres-1.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/imgres-1.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/imgres.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/imgres.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/t6nzccykhzmr6tohcoel.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/t6nzccykhzmr6tohcoel.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/the-simpsons-bart-to-the-future-donald-trump-running-for-president-of-the-usa.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/the-simpsons-bart-to-the-future-donald-trump-running-for-president-of-the-usa.jpg</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

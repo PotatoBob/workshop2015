@@ -1,0 +1,16 @@
+package PhotoPane;
+
+import javax.swing.JFrame;
+
+public class ImagePane {
+	JFrame window;
+
+	public static void main(String[] args) {
+		ImagePane IP = new ImagePane();
+	}
+
+	ImagePane() {
+		window = new JFrame();
+		window.setVisible(true);
+	}
+}
