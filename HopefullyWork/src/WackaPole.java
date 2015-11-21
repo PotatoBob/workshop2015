@@ -54,7 +54,7 @@ public class WackaPole implements ActionListener {
 				System.exit(0);
 			}
 		} else {
-			speak("Go show June a comment");
+			speak("Waste of atoms");
 		}
 	}
 
