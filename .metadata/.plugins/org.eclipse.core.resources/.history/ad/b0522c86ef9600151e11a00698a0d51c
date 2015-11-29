@@ -1,0 +1,59 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class UpDownLeftRight implements ActionListener {
+	JFrame window;
+	JPanel panel;
+	JButton up;
+	JButton down;
+	JButton left;
+	JButton right;
+
+	public static void main(String[] args) {
+		UpDownLeftRight UDLR = new UpDownLeftRight();
+	}
+
+	UpDownLeftRight() {
+		window = new JFrame();
+		window.setVisible(true);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		panel = new JPanel();
+		up = new JButton();
+		up.setText("Up");
+		up.addActionListener(this);
+		panel.add(up);
+		down = new JButton();
+		down.setText("Down");
+		down.addActionListener(this);
+		panel.add(down);
+		left = new JButton();
+		left.setText("Left");
+		left.addActionListener(this);
+		panel.add(left);
+		right = new JButton();
+		right.setText("Right");
+		right.addActionListener(this);
+		panel.add(right);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if (e.getSource() == up) {
+
+		}
+		if (e.getSource() == down) {
+
+		}
+		if (e.getSource() == left) {
+
+		}
+		if (e.getSource() == right) {
+
+		}
+
+	}
+}
