@@ -1,0 +1,80 @@
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Level1Exam implements ActionListener {
+	JFrame window;
+	JPanel panel;
+	JButton yellow;
+	JButton red;
+	JButton blue;
+	JButton green;
+
+	public static void main(String[] args) {
+		Level1Exam L1E = new Level1Exam();
+	}
+
+	Level1Exam() {
+		window = new JFrame("Color Teacher");
+		window.setVisible(true);
+
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		panel = new JPanel();
+
+		yellow = new JButton();
+		yellow.setBackground(Color.yellow);
+		yellow.setOpaque(true);
+		yellow.addActionListener(this);
+		panel.add(yellow);
+
+		red = new JButton();
+		red.setBackground(Color.red);
+		red.setOpaque(true);
+		red.addActionListener(this);
+		panel.add(red);
+
+		blue = new JButton();
+		blue.setBackground(Color.blue);
+		blue.setOpaque(true);
+		blue.addActionListener(this);
+		panel.add(blue);
+
+		green = new JButton();
+		green.setBackground(Color.green);
+		green.setOpaque(true);
+		green.addActionListener(this);
+		panel.add(green);
+
+		window.add(panel);
+		window.setSize(500, 100);
+
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if (e.getSource() == yellow) {
+			speak("yellow");
+		} else if (e.getSource() == red) {
+			speak("red");
+		} else if (e.getSource() == blue) {
+			speak("blue");
+		} else if (e.getSource() == green) {
+			speak("green");
+		}
+
+	}
+
+	void speak(String words) {
+		try {
+			Runtime.getRuntime().exec("say" + words);
+		} catch (IOException e) {
+			// e.printStackTrace();
+		}
+	}
+}

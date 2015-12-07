@@ -1,0 +1,51 @@
+import java.awt.Color;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Level1Exam {
+	JFrame window;
+	JPanel panel;
+	JButton yellow;
+	JButton red;
+	JButton blue;
+	JButton green;
+
+	public static void main(String[] args) {
+		Level1Exam L1E = new Level1Exam();
+	}
+
+	Level1Exam() {
+		window = new JFrame("Color Teacher");
+		window.setVisible(true);
+
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		panel = new JPanel();
+
+		yellow = new JButton();
+		yellow.setBackground(Color.yellow);
+		yellow.setOpaque(true);
+		panel.add(yellow);
+
+		red = new JButton();
+		red.setBackground(Color.red);
+		red.setOpaque(true);
+		panel.add(red);
+
+		blue = new JButton();
+		blue.setBackground(Color.blue);
+		blue.setOpaque(true);
+		panel.add(blue);
+
+		green = new JButton();
+		green.setBackground(Color.green);
+		green.setOpaque(true);
+		panel.add(green);
+
+		window.add(panel);
+		window.setSize(500, 100);
+
+	}
+}

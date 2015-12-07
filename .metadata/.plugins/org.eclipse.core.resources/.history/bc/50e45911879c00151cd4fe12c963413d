@@ -1,0 +1,10 @@
+
+public class ColorTeacher {
+	public static void main(String[] args) {
+		ColorTeacher CT = new ColorTeacher();
+	}
+	ColorTeacher()
+	{
+		
+	}
+}
